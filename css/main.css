@@ -1,0 +1,87 @@
+/* Tu CSS va aqui */
+*{
+	font-family: 'Open Sans';
+}
+* a {
+	text-decoration:none;
+}
+header {
+	padding: 1%;
+}
+/*NAVEGADOR*/
+.nav {
+text-align: right;
+}
+.nav a{
+	padding-left: 3%;
+	color: gray;
+}
+img{
+	width: 50%;
+}
+/*SECTION*/
+section{
+	background: gray;
+	padding:3%;
+	color: white;
+}
+h1{
+	font-size: 3.5rem;
+}
+section p{
+	padding: 7% 9% 7% 0;
+	text-align: justify;
+}
+/*INPUT*/
+.myget{
+	background: rgba(253, 253, 253, 0.27);
+	border-radius: 8px;
+	text-align: center;
+	padding: 8% 0;
+}
+
+section input, section .btn-subscribe {
+    margin: 2px 0px;
+    width: 88%;
+    padding: 0 2%;
+}
+section .btn-subscribe {
+    background-color: #3DB0F7;
+    border-style: none;
+    color: white;
+    padding: 5px 0;
+}
+/*FOOTER*/
+footer {
+	padding: 2% 0;
+	color: gray;
+}
+footer a {
+	text-decoration: none;
+}
+
+@media all and (max-width: 535px) {
+	.container {
+		width: 90%;
+		padding: 0;
+	}
+	.col-4, .col-8 {
+		width: 100%;
+	}
+	.col-6{
+		width:  50%;
+	}
+	section p {
+		width: 100%;
+	}
+	section {
+		padding: 0 5% 5% 0;
+		}
+	h1{
+		font-size: 3em;
+	}
+	.myget{
+		padding: 5% 0;
+	}
+
+}
